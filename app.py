@@ -165,7 +165,7 @@ def main():
     * **T5**: 5 years post-operation
     
     **Note**: This calculator is based on statistical models and should be used only as a reference. 
-    Actual patient outcomes may vary. Always consult with healthcare professionals for medical advice.
+    Actual patient outcomes may vary.
     """)
     
     # Check if models directory exists
@@ -321,11 +321,6 @@ def main():
             # Additional interpretation
             st.markdown(f"""
             This prediction suggests a **{interpretation}** pain level ({prediction:.1f}/8) at {timepoint}.
-            
-            **Remember**:
-            - This is a statistical prediction and individual results may vary
-            - The model has 40-49% accuracy within ±1 point of actual pain
-            - Always consult with healthcare professionals for medical advice
             """)
             
         except Exception as e:
