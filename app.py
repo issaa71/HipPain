@@ -37,16 +37,16 @@ MODELS_DIR = 'streamlit_models'  # Change to the new directory name
 def get_feature_descriptions():
     """Return descriptions for the features used in the models"""
     feature_descriptions = {
-        'LOS': 'Length of stay (days)',
+        'LOS': 'Legth of stay (days)',
         'BMI_Current': 'Body Mass Index',
-        'WOMACP_5': 'WOMAC Pain Score Question 5 (0-4)',
+        'WOMACP_5': ' Pain Standing upright (0-4)',
         'WeightCurrent': 'Current weight (kg)',
-        'ICOAPC_3': 'ICOA Pain Score Question 3 (0-4)',
-        'ICOAPC_1': 'ICOA Pain Score Question 1 (0-4)',
-        'AgePreOp': 'Age at pre-operation (years)',
-        'WOMACP_3': 'WOMAC Pain Score Question 3 (0-4)',
+        'ICOAPC_3': 'In the past week, how much has your constant hip pain affected your overall quality of life (0-4)',
+        'ICOAPC_1': 'In the past week, how intense has your constant hip pain been? (0-4)',
+        'AgePreOp': 'Age at pre-op (years)',
+        'WOMACP_3': 'Pain At night while in bed (0-4)',
         'WalkPain': 'Pain while walking (0-10)',
-        'MobilityAidWalker': 'Uses walker as mobility aid (0=No, 1=Yes)',
+        'MobilityAidWalker': 'Uses walker as mobility aid',
         'Pre-Op Pain': 'Pre-operation pain score (0-10)',
         'HeightCurrent': 'Current height (cm)',
         'ResultsRelief': 'Expected relief result (1-5)',
